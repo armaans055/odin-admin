@@ -1,0 +1,20 @@
+html,
+body{
+    margin: 0;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(20, 5vw);
+    grid-template-rows: repeat(10, 10vh);
+}
+
+.dashboard{
+    grid-area: 1 / 1 / 11 / 4;
+}
+.top-area{
+    grid-area: 1 / 4 / 3 / 21;
+}
+.main-area{
+    grid-area: 3 / 4 / 11 / 21;
+}
